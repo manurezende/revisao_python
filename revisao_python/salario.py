@@ -21,5 +21,3 @@ else:
     aumento = salario * 0.05
     salario_novo = salario + aumento
     print("olá seu aumento foi de 5%, você recebeu um aumento de",aumento ,"e seu salario era de", salario ,"agora seu salario está em", salario_novo)
-
-
