@@ -42,20 +42,29 @@ def media_aritmetica():
         n=int(input("digite um valor"))
     lista_num.append(n)
     
-    
     soma = 0
     for i in lista_num:
         soma+=i
     print("a media é: "+str(soma/len(lista_num)))
+    print(lista_num)
     
     
-def Lista_par(lista_num):
+def Lista_par():
     lista_num = []
+    for n in range(5):
+        n=int(input("digite um valor"))
+    lista_num.append(n)
+   
     lista_num2 = []
+
     soma = 0
     for i in lista_num:
         soma+=i
+        
     if soma % 2 == 0:
-        lista_num2 = soma
+        lista_num2.append(soma)
+        print("é um numero par")
+        print(lista_num2)
+    
         
         
